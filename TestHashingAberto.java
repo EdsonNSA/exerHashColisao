@@ -61,7 +61,7 @@ public class TestHashingAberto {
         //Verificando delete
         assertEquals(-1, ha.search(10));
         assertEquals(-1, ha.search(1010));
-        assertTrue(ha.search(2010) != -1);
+        assertEquals(ha.search(2010) != -1);
         
     }
 }
